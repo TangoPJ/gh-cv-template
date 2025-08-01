@@ -1,5 +1,5 @@
 import { publish } from "gh-pages";
 
-publish("dist", { nojekyll: true }, (err) => {
+publish("dist", { nojekyll: false }, (err) => {
   throw new Error(err);
 });
